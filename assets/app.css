@@ -1,0 +1,46 @@
+body {
+	background-color: #f5f5f5;
+	font-family: Arial, sans-serif;
+}
+
+#div-graph,
+#div-scatter,
+#div-bmi-graph,
+#div-box-plot {
+	background-color: #ffffff;
+	color: #333333;
+	border: 1px solid #dddddd;
+	padding: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+}
+
+h1 {
+	color: #333333;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+#checkbox,
+#xaxis-column,
+#yaxis-column,
+#bmi-category,
+#second-category,
+#factor-radioitem {
+	margin-bottom: 20px;
+}
+
+#graph,
+#scatter,
+#bmi-graph,
+#box-plot {
+	height: 400px;
+}
+
+#div-graph:hover,
+#div-scatter:hover,
+#div-bmi-graph:hover,
+#div-box-plot:hover {
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}

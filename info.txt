@@ -1,0 +1,158 @@
+Question:
+Based on the data (https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset), 
+the focus is on identifying the user base for the analysis tool. Envision 2-3 distinct users with 
+diverse interests and construct a user scenario for each. Each scenario should encompass details 
+like background information (who they are), motivations (their goals) and tasks (what they want to do).
+
+Response:
+Three user scenarios based on the Sleep Health and Lifestyle Dataset:
+1. User Scenario: Sleep Researcher
+- Background: A sleep researcher working in a university or research institute. They have a strong 
+  background in sleep science and statistical analysis.
+- Motivations: Their goal is to understand the factors affecting sleep quality and duration, and 
+  how these factors interplay with each other.
+- Tasks: They would use the dataset to perform exploratory data analysis, run statistical tests, 
+  and build predictive models to identify the key predictors of sleep quality and duration.
+2. User Scenario: Fitness Coach
+- Background: A fitness coach who is interested in the holistic well-being of their clients. They 
+  understand the importance of sleep in recovery and performance.
+- Motivations: Their goal is to provide personalized training and lifestyle advice to their clients. 
+  They want to understand how sleep interacts with other lifestyle factors like physical activity 
+  and stress.
+- Tasks: They would use the dataset to explore the relationship between sleep, physical activity, 
+  and stress levels. They might also be interested in comparing the sleep patterns of different 
+  demographic groups (e.g., by age or occupation).
+3. User Scenario: Health App Developer
+- Background: A developer working on a health and wellness app. They have a good understanding of 
+  data analysis and user experience design.
+- Motivations: Their goal is to build features that help users understand and improve their sleep. 
+  They want to provide insights that are backed by data.
+- Tasks: They would use the dataset to understand common sleep patterns and disturbances. This 
+  information could inform the design of features like sleep tracking, sleep coaching, and stress 
+  management tools.
+
+Each of these users brings a unique perspective and set of interests to the analysis of the Sleep 
+Health and Lifestyle Dataset. They would all benefit from a tool that allows them to easily explore 
+and visualize the data.
+
+***************************************************************************************************
+
+Question: 
+Identify the specific tasks that users would want to perform while exploring the dataset. 
+Narratively describe these tasks, crafting scenarios for each user identified in the preceding 
+step. For example, "User A aims to uncover patterns in educational attainment influenced by 
+socio-economic factors across various regions." Your dashboard will eventually aid in performing 
+these tasks
+
+Response:
+Specific tasks each user could perform while exploring the Sleep Health and Lifestyle Dataset:
+1. User Scenario: Sleep Researcher
+- Task: The researcher might want to perform a multivariate analysis to uncover the relationships 
+  between different variables in the dataset. For example, they might be interested in 
+  understanding how stress levels and physical activity influence sleep quality across different 
+  age groups. They might also want to build a predictive model to identify individuals at risk of 
+  sleep disorders based on their lifestyle habits.
+2. User Scenario: Fitness Coach
+- Task: The fitness coach might want to compare the sleep patterns of different demographic groups 
+  to understand how age, occupation, and physical activity levels affect sleep. They might also be 
+  interested in exploring the relationship between sleep duration and perceived stress levels among 
+  their clients. This could help them tailor their coaching strategies to improve both sleep and 
+  performance.
+3. User Scenario: Health App Developer
+- Task: The developer might want to identify common sleep disturbances and their associated 
+  factors. This could inform the design of features that help users track and improve their 
+  sleep. They might also be interested in understanding how sleep patterns vary by demographic 
+  factors, which could help them personalize the app experience for different user groups.
+
+In each of these scenarios, a dashboard that allows users to easily filter, visualize, and analyze
+the data would be incredibly useful. For example, the dashboard could include features for data 
+filtering, correlation analysis, trend visualization, and predictive modeling. This would enable 
+users to perform their tasks more efficiently and gain deeper insights from the dataset.
+
+***************************************************************************************************
+
+Question:
+This task involves the application of data and task abstraction techniques. Articulate the 
+methodologies you will employ to transform data and user tasks from the user space to the 
+visualization design space. Elaborate on the abstraction processes and techniques, ensuring a 
+thorough explanation with justification of the use of specific marks and channels for the 
+information encoding.
+
+Response:
+Process of transforming data and user tasks from the user space to the visualization design space:
+1. Data Abstraction: The first step is to abstract the data from its raw form into a more 
+   manageable and interpretable format. This involves identifying the key variables in the dataset 
+   that are relevant to the user tasks. For the Sleep Health and Lifestyle Dataset, these might 
+   include variables like sleep duration, sleep quality, stress levels, physical activity, and 
+   demographic factors. We would also need to consider the data types of these variables (e.g., 
+   categorical, ordinal, interval, ratio) as this will influence the choice of visual encoding.
+2. Task Abstraction: The next step is to abstract the user tasks into a set of generic tasks that 
+   can be supported by the visualization. For example, a user task like “compare the sleep patterns of
+   different demographic groups” can be abstracted to a comparison task. Similarly, a task like 
+   “identify common sleep disturbances” can be abstracted to an identification task. These generic 
+   tasks provide a framework for designing the visualization.
+3. Visual Encoding: Once we have abstracted the data and tasks, we can start designing the visual 
+   encoding. This involves choosing appropriate marks (e.g., points, lines, bars) and channels (e.g., 
+   position, length, angle, color) to represent the data. The choice of marks and channels should be 
+   guided by the data types and the tasks. For example, for a comparison task involving a quantitative 
+   variable like sleep duration, we might use a bar mark with length as the channel. For a task 
+   involving a categorical variable like occupation, we might use a point mark with color as the 
+   channel.
+4. Justification of Marks and Channels: The justification for the use of specific marks and channels 
+   is based on their effectiveness for the given tasks and data types. For example, research has shown 
+   that position and length are the most effective channels for representing quantitative data, which is 
+   why they are often used for comparison tasks. Similarly, color is an effective channel for 
+   representing categorical data, which is why it is often used for identification tasks.
+
+In summary, the process of transforming data and user tasks from the user space to the 
+visualization design space involves a series of abstraction steps, followed by the design of the 
+visual encoding. The choice of marks and channels is guided by the data types and the tasks, and 
+justified by their effectiveness for the given tasks and data types. This process ensures that the 
+resulting visualization is both effective and efficient for the user tasks.
+
+***************************************************************************************************
+
+Question:
+Write a use case scenario that demonstrates how the dashboard functions. Choose one of the users 
+from above as an example
+
+Response:
+Consider the Fitness Coach as our user for this use case scenario:
+
+User: Fitness Coach
+
+Scenario: The fitness coach logs into the dashboard with the aim of understanding how sleep 
+patterns vary among different age groups and occupations. They want to use this information to 
+tailor their coaching strategies for different clients.
+
+Step 1: The coach navigates to the ‘Demographics’ section of the dashboard. Here, they find a series 
+of bar charts showing the average sleep duration and quality for different age groups and occupations.
+
+Step 2: The coach uses the interactive filters to select the age groups and occupations that are most 
+relevant to their clients. The bar charts update in real-time to reflect these selections.
+
+Step 3: The coach notices that younger individuals and those in high-stress occupations tend to have 
+poorer sleep quality. They decide to focus their coaching strategies on improving sleep hygiene for 
+these groups.
+
+Step 4: The coach then navigates to the ‘Lifestyle Factors’ section of the dashboard. Here, they find 
+scatter plots showing the relationship between sleep quality, physical activity, and stress levels.
+
+Step 5: The coach uses the interactive filters to select the same age groups and occupations as before. 
+They notice that higher levels of physical activity are associated with better sleep quality, but only 
+up to a point. High-stress levels appear to negate the benefits of physical activity on sleep.
+
+Step 6: Based on these insights, the coach decides to incorporate stress management techniques into 
+their training programs, in addition to promoting regular physical activity.
+
+In this scenario, the dashboard enables the fitness coach to easily explore and visualize the data, 
+gain insights, and make data-driven decisions. The interactive features of the dashboard allow the 
+coach to tailor the analysis to their specific needs and interests.
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+dash
+dash-core-components
+dash-html-components
+plotly
+pandas
+scikit-learn
+ucimlrepo
+kaggle
+os
+json
+pathlib
+matplotlib
+gunicorn
