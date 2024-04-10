@@ -6,7 +6,6 @@ pandas
 scikit-learn
 ucimlrepo
 kaggle
-os
 json
 pathlib
 matplotlib
